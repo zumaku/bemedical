@@ -516,6 +516,9 @@ html {
 .aboutSection .container .aboutLeft .tombols .btn:hover {
   background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
 }
+.aboutSection .container .aboutLeft .tombols .btn:active {
+  transform: scale(0.8);
+}
 .aboutSection .container .aboutLeft .tombols .btn:first-child {
   background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
 }
@@ -1438,6 +1441,9 @@ html {
 .appointmentSection .container .appoRight .tableForm .btn:hover {
   background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
 }
+.appointmentSection .container .appoRight .tableForm .btn:active {
+  transform: scale(0.8);
+}
 .appointmentSection .container .appoRight .tableForm .btn:first-child {
   background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
 }
@@ -1526,6 +1532,9 @@ html {
   }
   .appointmentSection .container .appoRight .tableForm .btn:hover {
     background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
+  }
+  .appointmentSection .container .appoRight .tableForm .btn:active {
+    transform: scale(0.8);
   }
   .appointmentSection .container .appoRight .tableForm .btn:first-child {
     background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
@@ -1646,6 +1655,9 @@ html {
   }
   .appointmentSection .container .appoRight .tableForm .btn:hover {
     background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
+  }
+  .appointmentSection .container .appoRight .tableForm .btn:active {
+    transform: scale(0.8);
   }
   .appointmentSection .container .appoRight .tableForm .btn:first-child {
     background: linear-gradient(90deg, rgb(90, 167, 237) 0%, rgb(57, 100, 237) 100%);
@@ -2975,5 +2987,277 @@ html {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
+  }
+}
+.contactSection {
+  width: 100%;
+  padding: 10%;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+@media (max-width: 576px) {
+  .contactSection {
+    padding: .contactSection p 5%;
+    font-size: 0.9em;
+  }
+}
+.contactSection .container {
+  width: 100%;
+}
+.contactSection .container .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactSection .container .title span {
+  color: #469CEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contactSection .container .title span .line {
+  width: 50px;
+  height: 3px;
+  background-color: #469CEB;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .contactSection .container .title span {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+  }
+  .contactSection .container .title span .line {
+    width: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .contactSection .container .title span {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+  }
+  .contactSection .container .title span .line {
+    width: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .contactSection .container .title span {
+    font-size: 0.6em;
+    margin-bottom: 15px;
+  }
+  .contactSection .container .title span .line {
+    width: 15px;
+  }
+}
+.contactSection .container .title h1 {
+  font-size: 3em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .contactSection .container .title h1 {
+    font-size: 2.6em;
+  }
+}
+@media (max-width: 768px) {
+  .contactSection .container .title h1 {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 576px) {
+  .contactSection .container .title h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 390px) {
+  .contactSection .container .title h1 {
+    font-size: 1.4em;
+  }
+}
+.contactSection .container .git {
+  margin-bottom: 20px;
+}
+.contactSection .container .map {
+  height: 300px;
+  margin-bottom: 50px;
+}
+.contactSection .container .contactInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.contactSection .container .contactInfo .form {
+  width: 60%;
+}
+.contactSection .container .contactInfo .form table {
+  width: 100%;
+}
+.contactSection .container .contactInfo .form table tr td {
+  padding-bottom: 20px;
+  font-size: 1em;
+}
+.contactSection .container .contactInfo .form table tr td input, .contactSection .container .contactInfo .form table tr td textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: vertical;
+}
+.contactSection .container .contactInfo .form table tr td.name {
+  padding-right: 5px;
+}
+.contactSection .container .contactInfo .form table tr td.email {
+  padding-left: 5px;
+}
+.contactSection .container .contactInfo .form .btn {
+  font-size: 1em;
+  color: #469CEB;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1.5px solid #469CEB;
+  transition: 0.2s ease-in;
+}
+.contactSection .container .contactInfo .form .btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.contactSection .container .contactInfo .form .btn:active {
+  transform: scale(0.8);
+}
+.contactSection .container .contactInfo .more {
+  width: 35%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.contactSection .container .contactInfo .more .morecard {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.contactSection .container .contactInfo .more .morecard .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contactSection .container .contactInfo .more .morecard .infomore h4 {
+  font-size: 0.9em;
+}
+.contactSection .container .contactInfo .more .morecard .infomore p {
+  font-size: 0.8em;
+  color: #808080;
+}
+.contactSection .container .contactInfo .more .morecard:first-child .icon {
+  background-image: url(../../img/icon/home2.png);
+}
+.contactSection .container .contactInfo .more .morecard:nth-child(2) .icon {
+  background-image: url(../../img/icon/smartphone2.png);
+}
+.contactSection .container .contactInfo .more .morecard:last-child .icon {
+  background-image: url(../../img/icon/mail2.png);
+}
+
+@media (max-width: 992px) {
+  .contactSection .container .git {
+    margin-bottom: 20px;
+  }
+  .contactSection .container .contactInfo .form {
+    width: 55%;
+  }
+  .contactSection .container .contactInfo .more {
+    width: 40%;
+  }
+  .contactSection .container .contactInfo .more .morecard .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore h4 {
+    font-size: 0.8em;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore p {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 768px) {
+  .contactSection .container .git {
+    margin-bottom: 15px;
+  }
+  .contactSection .container .contactInfo .form {
+    width: 55%;
+  }
+  .contactSection .container .contactInfo .form table tr td {
+    padding-bottom: 10px;
+  }
+  .contactSection .container .contactInfo .form table tr td textarea {
+    height: 120px;
+  }
+  .contactSection .container .contactInfo .more {
+    width: 45%;
+  }
+  .contactSection .container .contactInfo .more .morecard .icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore h4 {
+    font-size: 0.7em;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore p {
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 576px) {
+  .contactSection {
+    padding: 5%;
+  }
+  .contactSection .container .git {
+    margin-bottom: 15px;
+  }
+  .contactSection .container .contactInfo {
+    flex-direction: column;
+  }
+  .contactSection .container .contactInfo .form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contactSection .container .contactInfo .form table tr td {
+    padding-bottom: 10px;
+  }
+  .contactSection .container .contactInfo .form table tr td textarea {
+    height: 120px;
+  }
+  .contactSection .container .contactInfo .form .btn {
+    padding: 5px 10px;
+  }
+  .contactSection .container .contactInfo .more {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  .contactSection .container .contactInfo .more .morecard {
+    margin: 0 10px 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .contactSection .container .contactInfo .more .morecard .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore h4 {
+    font-size: 0.7em;
+  }
+  .contactSection .container .contactInfo .more .morecard .infomore p {
+    font-size: 0.6em;
   }
 }/*# sourceMappingURL=main.css.map */

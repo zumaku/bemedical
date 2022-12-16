@@ -8,6 +8,7 @@
 @use 'sections/appointmentSection' as *;
 @use 'sections/doctors' as *;
 @use 'sections/blog' as *;
+@use 'sections/contact' as *;
 
 
 *{
@@ -29,6 +30,7 @@ html{
 @include appointmentSection();
 @include doctorsSection();
 @include blogSection();
+@include contactSection();
 
 
 

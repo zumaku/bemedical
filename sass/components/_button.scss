@@ -27,9 +27,8 @@
             background-size: cover;
         }
 
-        &:hover{
-            background: $linearGradienButton;
-        }
+        &:hover{ background: $linearGradienButton; }
+        &:active{ transform: scale(.8); }
         
         &:first-child{
             background: $linearGradienButton;
