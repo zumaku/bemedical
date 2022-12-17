@@ -2611,7 +2611,7 @@ html {
   }
   .blogSection .container .mainContent .sideBar {
     width: 80%;
-    height: 120vh;
+    height: 1000px;
     position: absolute;
     top: 0;
     background-color: white;
