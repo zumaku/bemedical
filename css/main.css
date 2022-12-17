@@ -83,6 +83,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.2s ease-in;
 }
 .navbar .menu ul li a {
   color: #1E1E1E;
@@ -90,6 +91,9 @@ html {
 }
 .navbar .menu ul li a:hover ~ .under {
   width: 100%;
+}
+.navbar .menu ul li a:active {
+  transform: scale(0.9);
 }
 .navbar .menu ul li .under {
   justify-self: flex-end;
@@ -108,6 +112,10 @@ html {
 }
 .navbar .menu .nohape:hover {
   background-color: #4379d0;
+  transform: scale(1.05);
+}
+.navbar .menu .nohape:active {
+  transform: scale(0.9);
 }
 .navbar .menu .nohape a {
   color: white;
@@ -269,8 +277,11 @@ html {
   transition: 0.3s all;
 }
 .heroSection .container .appointment:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
   background-color: #4379d0;
+}
+.heroSection .container .appointment:active {
+  transform: scale(0.9);
 }
 .heroSection .container .appointment p {
   color: white;
@@ -486,6 +497,15 @@ html {
 .aboutSection .container .aboutLeft .tombols {
   display: flex;
   flex-direction: column;
+}
+.aboutSection .container .aboutLeft .tombols .btn {
+  transition: 0.2s ease-in all;
+}
+.aboutSection .container .aboutLeft .tombols .btn:hover {
+  transform: scale(1.05);
+}
+.aboutSection .container .aboutLeft .tombols .btn:active {
+  transform: scale(0.9);
 }
 .aboutSection .container .aboutLeft .tombols .btn {
   font-size: 1em;
@@ -861,6 +881,9 @@ html {
 }
 .serviceSection .container .mainService .msLeft .bigBtn:hover {
   transform: scale(1.05);
+}
+.serviceSection .container .mainService .msLeft .bigBtn:active {
+  transform: scale(0.8);
 }
 @media (max-width: 768px) {
   .serviceSection .container .mainService .msLeft .bigBtn {
@@ -1481,6 +1504,9 @@ html {
 }
 .appointmentSection .container .appoRight .tableForm .btn:hover {
   transform: scale(1.05);
+}
+.appointmentSection .container .appoRight .tableForm .btn:active {
+  transform: scale(0.9);
 }
 
 @media (max-width: 992px) {
@@ -2306,7 +2332,10 @@ html {
   transition: 0.2s ease-in;
 }
 .blogSection .container .mainContent .sideBar .searchBox .searchButton:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+.blogSection .container .mainContent .sideBar .searchBox .searchButton:active {
+  transform: scale(0.9);
 }
 .blogSection .container .mainContent .sideBar .categoryBox {
   width: 100%;
@@ -2403,7 +2432,10 @@ html {
   transition: 0.2s ease;
 }
 .blogSection .container .mainContent .sideBar .tagBox .tags .tag:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+.blogSection .container .mainContent .sideBar .tagBox .tags .tag:active {
+  transform: scale(0.9);
 }
 .blogSection .container .mainContent .sideBar .feedBox {
   width: 100%;
@@ -2430,7 +2462,10 @@ html {
   transition: 0.2s ease-in;
 }
 .blogSection .container .mainContent .sideBar .feedBox .igFeed .image:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+}
+.blogSection .container .mainContent .sideBar .feedBox .igFeed .image:active {
+  transform: scale(0.9);
 }
 .blogSection .container .mainContent .sideBar .feedBox .igFeed .image.img1 {
   background-image: url(../img/blog21.jpg);
@@ -2477,7 +2512,10 @@ html {
   transition: 0.2s ease-in;
 }
 .blogSection .container .mainContent .sideBar .subscribeBox .subscribeBtn:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+.blogSection .container .mainContent .sideBar .subscribeBox .subscribeBtn:active {
+  transform: scale(0.9);
 }
 
 @media (max-width: 1200px) {
@@ -3129,7 +3167,7 @@ html {
   cursor: pointer;
 }
 .contactSection .container .contactInfo .form .btn:active {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 .contactSection .container .contactInfo .more {
   width: 35%;
@@ -3311,6 +3349,9 @@ html {
   color: white;
   text-decoration: none;
 }
+.footerSection .container .main .rightbar a:hover {
+  text-decoration: underline;
+}
 .footerSection .container .main .rightbar .form {
   width: 100%;
   font-size: 1em;
@@ -3334,6 +3375,13 @@ html {
   background-color: transparent;
   color: #469CEB;
   border: 2px solid #469CEB;
+  transition: 0.2s ease-in;
+}
+.footerSection .container .main .rightbar .form .submit:hover {
+  transform: scale(1.05);
+}
+.footerSection .container .main .rightbar .form .submit:active {
+  transform: scale(0.9);
 }
 .footerSection .container hr {
   margin: 50px 0 20px;
@@ -3351,6 +3399,10 @@ html {
 .footerSection .container .copyright p a {
   color: #469CEB;
   text-decoration: none;
+  transition: 0.2s ease-in;
+}
+.footerSection .container .copyright p a:hover {
+  text-decoration: underline;
 }
 .footerSection .container .copyright .sosmed {
   display: flex;
@@ -3365,14 +3417,26 @@ html {
 .footerSection .container .copyright .sosmed .icon.tw {
   background-image: url(../../img/icon/twitter3.png);
 }
+.footerSection .container .copyright .sosmed .icon.tw:hover {
+  background-image: url(../../img/icon/twitter2.png);
+}
 .footerSection .container .copyright .sosmed .icon.fb {
   background-image: url(../../img/icon/facebook3.png);
+}
+.footerSection .container .copyright .sosmed .icon.fb:hover {
+  background-image: url(../../img/icon/facebook2.png);
 }
 .footerSection .container .copyright .sosmed .icon.web {
   background-image: url(../../img/icon/global3.png);
 }
+.footerSection .container .copyright .sosmed .icon.web:hover {
+  background-image: url(../../img/icon/global2.png);
+}
 .footerSection .container .copyright .sosmed .icon.ig {
   background-image: url(../../img/icon/instagram3.png);
+}
+.footerSection .container .copyright .sosmed .icon.ig:hover {
+  background-image: url(../../img/icon/instagram2.png);
 }
 
 @media (max-width: 1020px) {

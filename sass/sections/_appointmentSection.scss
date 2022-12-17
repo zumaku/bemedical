@@ -81,9 +81,8 @@
                         background: $linearGradienButton;
                         transition: .2s ease-in;
 
-                        &:hover{
-                            transform: scale(1.05);
-                        }
+                        &:hover{ transform: scale(1.05); }
+                        &:active{ transform: scale(.9); }
                     }
                 }
             }

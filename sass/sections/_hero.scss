@@ -68,9 +68,10 @@
                 transition: .3s all;
     
                 &:hover{
-                    transform: scale(1.01);
+                    transform: scale(1.05);
                     background-color: lighten($color: $titleColor, $amount: 3);
                 }
+                &:active{ transform: scale(.9); }
     
                 p{
                     color: white;

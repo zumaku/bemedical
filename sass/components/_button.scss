@@ -98,9 +98,8 @@
             background-size: cover;
         }
 
-        &:hover{
-            transform: scale(1.05);
-        }
+        &:hover{ transform: scale(1.05); }
+        &:active{ transform: scale(.8); }
     }
 
     @media (min-width: 1200px){

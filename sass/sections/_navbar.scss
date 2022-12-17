@@ -94,7 +94,7 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-
+                    transition: .2s ease-in;
                     
                     a{
                         color: $textPrimaryColor;
@@ -103,6 +103,7 @@
                         &:hover ~ .under{
                             width: 100%;
                         }
+                        &:active{ transform: scale(.9); }
                     }
 
                     .under{
@@ -125,7 +126,9 @@
         
                 &:hover{
                     background-color: lighten($color: $titleColor, $amount: 3);
+                    transform: scale(1.05);
                 }
+                &:active{ transform: scale(.9); }
         
                 a{
                     color: white;
