@@ -876,7 +876,7 @@ html {
 .serviceSection .container .mainService .msLeft .bigBtn .arrow {
   width: 14px;
   height: 14px;
-  background-image: url(../../img/icon/right-arrow2.png);
+  background-image: url(../img/icon/right-arrow2.png);
   background-size: cover;
 }
 .serviceSection .container .mainService .msLeft .bigBtn:hover {
