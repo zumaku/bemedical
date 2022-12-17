@@ -2994,6 +2994,7 @@ html {
   padding: 10%;
   box-sizing: border-box;
   font-size: 1em;
+  background-color: rgba(225, 238, 251, 0.5411764706);
 }
 @media (max-width: 576px) {
   .contactSection {
@@ -3104,6 +3105,8 @@ html {
   box-sizing: border-box;
   outline: none;
   resize: vertical;
+  background-color: rgba(225, 238, 251, 0.5411764706);
+  border: 1px solid grey;
 }
 .contactSection .container .contactInfo .form table tr td.name {
   padding-right: 5px;

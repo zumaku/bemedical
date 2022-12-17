@@ -4,6 +4,7 @@
 
     .contactSection{
         @include section();
+        background-color: $semuColor;
 
         .container{
             width: 100%;
@@ -44,6 +45,8 @@
                                 box-sizing: border-box;
                                 outline: none;
                                 resize: vertical;
+                                background-color: $semuColor;
+                                border: 1px solid grey;
                             }
 
                             &.name{padding-right: 5px;}
