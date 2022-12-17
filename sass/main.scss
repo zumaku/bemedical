@@ -9,6 +9,7 @@
 @use 'sections/doctors' as *;
 @use 'sections/blog' as *;
 @use 'sections/contact' as *;
+@use 'sections/footer' as *;
 
 
 *{
@@ -31,6 +32,7 @@ html{
 @include doctorsSection();
 @include blogSection();
 @include contactSection();
+@include footerSection();
 
 
 

@@ -3260,4 +3260,313 @@ html {
   .contactSection .container .contactInfo .more .morecard .infomore p {
     font-size: 0.6em;
   }
+}
+.footerSection {
+  width: 100%;
+  padding: 10%;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #11141B;
+}
+@media (max-width: 576px) {
+  .footerSection {
+    padding: .footerSection p 5%;
+    font-size: 0.9em;
+  }
+}
+.footerSection .container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footerSection .container .main {
+  display: flex;
+  justify-content: space-between;
+}
+.footerSection .container .main .maincard {
+  width: 30%;
+}
+.footerSection .container .main .logo img {
+  max-width: 250px;
+}
+.footerSection .container .main .aboutus h4, .footerSection .container .main .aboutus p {
+  margin-bottom: 30px;
+}
+.footerSection .container .main .aboutus p {
+  font-size: 0.9em;
+  text-align: justify;
+  max-width: 200px;
+}
+.footerSection .container .main .rightbar h1 {
+  margin-bottom: 10px;
+}
+.footerSection .container .main .rightbar h1 span {
+  color: #469CEB;
+}
+.footerSection .container .main .rightbar a {
+  font-size: 0.9em;
+  color: white;
+  text-decoration: none;
+}
+.footerSection .container .main .rightbar .form {
+  width: 100%;
+  font-size: 1em;
+  margin-top: 30px;
+}
+.footerSection .container .main .rightbar .form .email {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 70%;
+  outline: none;
+  border: 0;
+  color: white;
+  background-color: #242a3a;
+}
+.footerSection .container .main .rightbar .form .submit {
+  padding: 8px 8px;
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  color: #469CEB;
+  border: 2px solid #469CEB;
+}
+.footerSection .container hr {
+  margin: 50px 0 20px;
+}
+.footerSection .container .copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.footerSection .container .copyright p {
+  font-size: 0.9em;
+}
+.footerSection .container .copyright p span {
+  color: #469CEB;
+}
+.footerSection .container .copyright p a {
+  color: #469CEB;
+  text-decoration: none;
+}
+.footerSection .container .copyright .sosmed {
+  display: flex;
+}
+.footerSection .container .copyright .sosmed .icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footerSection .container .copyright .sosmed .icon.tw {
+  background-image: url(../../img/icon/twitter3.png);
+}
+.footerSection .container .copyright .sosmed .icon.fb {
+  background-image: url(../../img/icon/facebook3.png);
+}
+.footerSection .container .copyright .sosmed .icon.web {
+  background-image: url(../../img/icon/global3.png);
+}
+.footerSection .container .copyright .sosmed .icon.ig {
+  background-image: url(../../img/icon/instagram3.png);
+}
+
+@media (max-width: 1020px) {
+  .footerSection .container .main .maincard {
+    width: 30%;
+  }
+  .footerSection .container .main .logo img {
+    max-width: 170px;
+  }
+  .footerSection .container .main .aboutus h4, .footerSection .container .main .aboutus p {
+    margin-bottom: 20px;
+  }
+  .footerSection .container .main .aboutus p {
+    max-width: 170px;
+  }
+  .footerSection .container .main .rightbar h1 {
+    font-size: 1.6em;
+  }
+  .footerSection .container .main .rightbar a {
+    font-size: 0.85em;
+  }
+  .footerSection .container .main .rightbar .form {
+    font-size: 0.9em;
+  }
+  .footerSection .container .main .rightbar .form .email {
+    padding: 8px;
+  }
+  .footerSection .container .main .rightbar .form .submit {
+    padding: 4px 4px;
+  }
+  .footerSection .container hr {
+    margin: 50px 0 20px;
+  }
+  .footerSection .container .copyright p {
+    font-size: 0.8em;
+  }
+  .footerSection .container .copyright .sosmed .icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 820px) {
+  .footerSection .container .main .maincard {
+    width: 30%;
+  }
+  .footerSection .container .main .logo img {
+    max-width: 150px;
+  }
+  .footerSection .container .main .aboutus p {
+    font-size: 0.8em;
+    max-width: 150px;
+  }
+  .footerSection .container .main .rightbar h1 {
+    font-size: 1.3em;
+  }
+  .footerSection .container .main .rightbar a {
+    font-size: 0.8em;
+  }
+  .footerSection .container .main .rightbar .form {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerSection .container .main .rightbar .form .email {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .footerSection .container .main .rightbar .form .submit {
+    width: 100%;
+    padding: 4px 4px;
+  }
+  .footerSection .container hr {
+    margin: 50px 0 20px;
+  }
+  .footerSection .container .copyright {
+    align-items: center;
+  }
+  .footerSection .container .copyright p {
+    max-width: 400px;
+    font-size: 0.8em;
+  }
+  .footerSection .container .copyright .sosmed .icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .footerSection {
+    padding: 5%;
+  }
+  .footerSection .container .main {
+    flex-wrap: wrap;
+  }
+  .footerSection .container .main .maincard {
+    width: 50%;
+  }
+  .footerSection .container .main .maincard:first-child {
+    width: 100%;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+  }
+  .footerSection .container .main .logo img {
+    max-width: 150px;
+  }
+  .footerSection .container .main .aboutus p {
+    font-size: 0.8em;
+    max-width: 80%;
+  }
+  .footerSection .container .main .rightbar h1 {
+    font-size: 1.5em;
+  }
+  .footerSection .container .main .rightbar a {
+    font-size: 0.8em;
+  }
+  .footerSection .container .main .rightbar .form {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerSection .container .main .rightbar .form .email {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .footerSection .container .main .rightbar .form .submit {
+    width: 100%;
+    padding: 4px 4px;
+  }
+  .footerSection .container hr {
+    margin: 50px 0 20px;
+  }
+  .footerSection .container .copyright {
+    align-items: center;
+  }
+  .footerSection .container .copyright p {
+    max-width: 400px;
+    font-size: 0.8em;
+  }
+  .footerSection .container .copyright .sosmed .icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .footerSection .container .main {
+    flex-wrap: wrap;
+  }
+  .footerSection .container .main .maincard {
+    width: 100%;
+  }
+  .footerSection .container .main .logo img {
+    max-width: 150px;
+  }
+  .footerSection .container .main .aboutus {
+    margin-bottom: 20px;
+  }
+  .footerSection .container .main .aboutus p {
+    font-size: 0.9em;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .footerSection .container .main .rightbar h1 {
+    font-size: 1.6em;
+  }
+  .footerSection .container .main .rightbar a {
+    font-size: 0.9em;
+  }
+  .footerSection .container .main .rightbar .form {
+    font-size: 1em;
+  }
+  .footerSection .container .main .rightbar .form .submit {
+    padding: 8px 8px;
+  }
+  .footerSection .container hr {
+    margin: 50px 0 20px;
+  }
+  .footerSection .container .copyright {
+    flex-direction: column-reverse;
+  }
+  .footerSection .container .copyright p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .footerSection .container .copyright .sosmed {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .footerSection .container .copyright .sosmed .icon {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
