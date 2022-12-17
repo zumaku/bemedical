@@ -3194,13 +3194,13 @@ html {
   color: #808080;
 }
 .contactSection .container .contactInfo .more .morecard:first-child .icon {
-  background-image: url(../../img/icon/home2.png);
+  background-image: url(../img/icon/home2.png);
 }
 .contactSection .container .contactInfo .more .morecard:nth-child(2) .icon {
-  background-image: url(../../img/icon/smartphone2.png);
+  background-image: url(../img/icon/smartphone2.png);
 }
 .contactSection .container .contactInfo .more .morecard:last-child .icon {
-  background-image: url(../../img/icon/mail2.png);
+  background-image: url(../img/icon/mail2.png);
 }
 
 @media (max-width: 992px) {
@@ -3415,28 +3415,28 @@ html {
   background-repeat: no-repeat;
 }
 .footerSection .container .copyright .sosmed .icon.tw {
-  background-image: url(../../img/icon/twitter3.png);
+  background-image: url(../img/icon/twitter3.png);
 }
 .footerSection .container .copyright .sosmed .icon.tw:hover {
-  background-image: url(../../img/icon/twitter2.png);
+  background-image: url(../img/icon/twitter2.png);
 }
 .footerSection .container .copyright .sosmed .icon.fb {
-  background-image: url(../../img/icon/facebook3.png);
+  background-image: url(../img/icon/facebook3.png);
 }
 .footerSection .container .copyright .sosmed .icon.fb:hover {
-  background-image: url(../../img/icon/facebook2.png);
+  background-image: url(../img/icon/facebook2.png);
 }
 .footerSection .container .copyright .sosmed .icon.web {
-  background-image: url(../../img/icon/global3.png);
+  background-image: url(../img/icon/global3.png);
 }
 .footerSection .container .copyright .sosmed .icon.web:hover {
-  background-image: url(../../img/icon/global2.png);
+  background-image: url(../img/icon/global2.png);
 }
 .footerSection .container .copyright .sosmed .icon.ig {
-  background-image: url(../../img/icon/instagram3.png);
+  background-image: url(../img/icon/instagram3.png);
 }
 .footerSection .container .copyright .sosmed .icon.ig:hover {
-  background-image: url(../../img/icon/instagram2.png);
+  background-image: url(../img/icon/instagram2.png);
 }
 
 @media (max-width: 1020px) {
