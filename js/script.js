@@ -80,6 +80,6 @@ blogCheck.addEventListener('click', function () {
 // FUNGSI MEMBUAT PANGGILAN
 function makeCall(){
     let tanya = confirm("Melakukan panggilan ke +62-85757115194?");
-    // if(tanya){ window.open('tel:085757115194'); }
-    if(tanya){ window.open('tel:085299068400'); }
+    if(tanya){ window.open('tel:085757115194'); }
+    // if(tanya){ window.open('tel:085299068400'); }
 }
