@@ -18,9 +18,9 @@
         padding: 10%;
         box-sizing: border-box;
         @include section();
-
+        
         .container{
-
+            
             .title{
                 @include mainTitle();
             }
