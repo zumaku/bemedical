@@ -5,8 +5,6 @@
 @use 'sections/gallery' as *;
 @use 'sections/testimoni' as *;
 @use 'sections/service' as *;
-@use 'sections/appointmentSection' as *;
-@use 'sections/doctors' as *;
 @use 'sections/blog' as *;
 @use 'sections/contact' as *;
 @use 'sections/footer' as *;
@@ -28,8 +26,6 @@ html{
 @include serviceSection();
 @include gallerySection();
 @include testimoniSection();
-@include appointmentSection();
-@include doctorsSection();
 @include blogSection();
 @include contactSection();
 @include footerSection();

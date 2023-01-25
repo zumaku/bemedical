@@ -46,11 +46,9 @@
                             background-size: cover;
                             background-position: center;
 
-                            &.p1{background-image: url(../img/blog01.jpg);}
-                            &.p2{background-image: url(../img/blog02.jpg);}
-                            &.p3{background-image: url(../img/blog03.jpg);}
-                            &.p4{background-image: url(../img/blog04.jpg);}
-                            &.p5{background-image: url(../img/blog05.jpg);}
+                            &.p1{background-image: url(../img/blog/blog1.jpg);}
+                            &.p2{background-image: url(../img/blog/blog2.jpg);}
+                            &.p3{background-image: url(../img/blog/blog3.jpg);}
                         }
     
                         .caption{
@@ -250,10 +248,10 @@
                                     margin-right: 20px;
                                     background-size: cover;
                                 
-                                    &.post1{background-image: url(../img/blog11.jpg);}
-                                    &.post2{background-image: url(../img/blog12.jpg);}
-                                    &.post3{background-image: url(../img/blog13.jpg);}
-                                    &.post4{background-image: url(../img/blog14.jpg);}
+                                    &.post1{background-image: url(../img/blog/blog4.jpg);}
+                                    &.post2{background-image: url(../img/blog/blog5.jpg);}
+                                    &.post3{background-image: url(../img/blog/blog6.jpg);}
+                                    &.post4{background-image: url(../img/blog/blog7.jpg);}
                                 }
                             }
                         }
@@ -308,12 +306,12 @@
                                 &:hover{ transform: scale(1.05); }
                                 &:active{ transform: scale(.9); }
 
-                                &.img1{background-image: url(../img/blog21.jpg);}
-                                &.img2{background-image: url(../img/blog22.jpg);}
-                                &.img3{background-image: url(../img/blog23.jpg);}
-                                &.img4{background-image: url(../img/blog24.jpg);}
-                                &.img5{background-image: url(../img/blog25.jpg);}
-                                &.img6{background-image: url(../img/blog26.jpg);}
+                                &.img1{background-image: url(../img/blog/blog8.jpg);}
+                                &.img2{background-image: url(../img/blog/blog9.jpg);}
+                                &.img3{background-image: url(../img/blog/blog10.jpg);}
+                                &.img4{background-image: url(../img/blog/blog11.jpg);}
+                                &.img5{background-image: url(../img/blog/blog12.jpg);}
+                                &.img6{background-image: url(../img/blog/blog13.jpg);}
                             }
                         }
                     }

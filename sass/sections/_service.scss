@@ -54,68 +54,68 @@
                         color: white;
                     }
 
-                    &.gigi{
+                    &.kemah{
                         .icon{
-                            background-image: url(../img/icon/tooth.png);
+                            background-image: url(../img/icon/camping\ \(1\).png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/tooth\ \(1\).png);
+                                background-image: url(../img/icon/camping.png);
                             }
                         }
                     }
 
-                    &.jantung{
+                    &.hutan{
                         .icon{
-                            background-image: url(../img/icon/heart.png);
+                            background-image: url(../img/icon/jungle\ \(1\).png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/heart\ \(1\).png);
+                                background-image: url(../img/icon/jungle.png);
                             }
                         }
                     }
 
-                    &.telinga{
+                    &.laut{
                         .icon{
-                            background-image: url(../img/icon/ear.png);
+                            background-image: url(../img/icon/sea\ \(1\).png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/ear\ \(1\).png);
+                                background-image: url(../img/icon/sea.png);
                             }
                         }
                     }
 
-                    &.tulang{
+                    &.pantai{
                         .icon{
-                            background-image: url(../img/icon/bone.png);
+                            background-image: url(../img/icon/vacations.png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/bone\ \(1\).png);
+                                background-image: url(../img/icon/vacations\ \(1\).png);
                             }
                         }
                     }
 
-                    &.paru{
+                    &.gunung{
                         .icon{
-                            background-image: url(../img/icon/lungs.png);
+                            background-image: url(../img/icon/mount-kenya\ \(1\).png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/lungs\ \(1\).png);
+                                background-image: url(../img/icon/mount-kenya.png);
                             }
                         }
                     }
 
-                    &.darah{
+                    &.tebing{
                         .icon{
-                            background-image: url(../img/icon/red-blood-cells.png);
+                            background-image: url(../img/icon/climbing.png);
                         }
                         &:hover{
                             .icon{
-                                background-image: url(../img/icon/red-blood-cells\ \(1\).png);
+                                background-image: url(../img/icon/climbing\ \(1\).png);
                             }
                         }
                     }
@@ -137,34 +137,34 @@
                     color: white;
                 }
 
-                .active.gigi{
+                .active.kemah{
                     .icon{
-                        background-image: url(../img/icon/tooth\ \(1\).png);
+                        background-image: url(../img/icon/camping.png);
                     }
                 }
-                .active.jantung{
+                .active.hutan{
                     .icon{
-                        background-image: url(../img/icon/heart\ \(1\).png);
+                        background-image: url(../img/icon/jungle.png);
                     }
                 }
-                .active.telinga{
+                .active.laut{
                     .icon{
-                        background-image: url(../img/icon/ear\ \(1\).png);
+                        background-image: url(../img/icon/sea.png);
                     }
                 }
-                .active.tulang{
+                .active.pantai{
                     .icon{
-                        background-image: url(../img/icon/bone\ \(1\).png);
+                        background-image: url(../img/icon/vacations\ \(1\).png);
                     }
                 }
-                .active.paru{
+                .active.gunung{
                     .icon{
-                        background-image: url(../img/icon/lungs\ \(1\).png);
+                        background-image: url(../img/icon/mount-kenya.png);
                     }
                 }
                 .active.darah{
                     .icon{
-                        background-image: url(../img/icon/red-blood-cells\ \(1\).png);
+                        background-image: url(../img/icon/climbing\ \(1\).png);
                     }
                 }
 
@@ -187,7 +187,7 @@
 
                 .msRight{
                     width: 45%;
-                    background-image: url(../img/service1.jpg);
+                    background-image: url(img/service/service1.jpg);
                     background-size: cover;
                     background-position: center;
                     transition: .2s ease-in;

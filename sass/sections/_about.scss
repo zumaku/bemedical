@@ -43,6 +43,23 @@
                 overflow: hidden;
                 display: flex;
                 justify-content: center;
+                .img{
+                    width: 500px;
+                    height: 300px;
+                    background-color: $primaryColor;
+                    animation: about 15s linear infinite;
+                    background-size: cover;
+                    @keyframes about {
+                        0%{ background-image: url(../img/about/about1.png); }
+                        25%{ background-image: url(../img/about/about1.png); }
+                        26%{ background-image: url(../img/about/about2.png); }
+                        50%{ background-image: url(../img/about/about2.png); }
+                        51%{ background-image: url(../img/about/about3.png); }
+                        75%{ background-image: url(../img/about/about3.png); }
+                        76%{ background-image: url(../img/about/about4.png); }
+                        100%{ background-image: url(../img/about/about4.png); }
+                    }
+                }
             }
         }
     }

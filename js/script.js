@@ -23,36 +23,30 @@ window.onload = () => { //after window loaded
             selectedItem.target.classList.add("active"); //add that active class on user selected item
             let filterName = selectedItem.target.getAttribute("data-name"); //getting data-name value of user selected item and store in a filtername variable
             
-            if(filterName == "jantung"){
-                mainServiceTitle.innerHTML = "Hai.. Ini adalah Jantung";
+            if(filterName == "kemah"){
+                mainServiceTitle.innerHTML = "Berkemah bersama kami";
                 mainServiceParagraph.innerHTML = "Lorem Bukan Ispum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem ad qui eius. Neque veritatis fugiat nobis error voluptatibus perspiciatis quo. Ipsam, expedita. Ipsa voluptatem tempora quam veniam natus at?";
-                mainServiceBtn.setAttribute("href", "https://cdn.hellosehat.com/wp-content/uploads/2018/03/shutterstock_356968148.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service2.jpg);");
-            } else if(filterName == "gigi"){
-                mainServiceTitle.innerHTML = "Dentist with surgical mask holding scaler near potient";
+                msRight.setAttribute("style", "background-image: url(img/service/service1.jpg)");
+            } else if(filterName == "hutan"){
+                mainServiceTitle.innerHTML = "Berkelana di dalam hutan";
                 mainServiceParagraph.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis aperiam rem harum? Aspernatur molestias eos hic minus nostrum unde obcaecati, voluptatum neque placeat doloribus culpa officiis, quas repellat expedita.";
-                mainServiceBtn.setAttribute("href", "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/ilustrasi-gigi-cara-memutihkan-gigi.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service1.jpg);");
-            } else if(filterName == "telinga"){
-                mainServiceTitle.innerHTML = "Hazihi Telinga";
+                msRight.setAttribute("style", "background-image: url(img/service/service2.jpg)");
+            } else if(filterName == "laut"){
+                mainServiceTitle.innerHTML = "Ayo menyelam";
                 mainServiceParagraph.innerHTML = "To Linga ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis aperiam rem harum? Aspernatur molestias eos hic minus nostrum unde obcaecati, voluptatum neque placeat doloribus culpa officiis, quas repellat expedita.";
-                mainServiceBtn.setAttribute("href", "https://asset.kompas.com/crops/i3gArY8JijPck_Mjo5c_e7JDIlY=/178x0:763x390/750x500/data/photo/2014/03/02/2015111telinga780x390.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service3.jpg);");
-            } else if(filterName == "tulang"){
-                mainServiceTitle.innerHTML = "Inni Tulang Arenna";
+                msRight.setAttribute("style", "background-image: url(../img/service/service3.jpg)");
+            } else if(filterName == "pantai"){
+                mainServiceTitle.innerHTML = "Healing ni guys";
                 mainServiceParagraph.innerHTML = "To TUUUU LAAAAANGGG ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis aperiam rem harum? Aspernatur molestias eos hic minus nostrum unde obcaecati, voluptatum neque placeat doloribus culpa officiis, quas repellat expedita.";
-                mainServiceBtn.setAttribute("href", "https://static.republika.co.id/uploads/images/inpicture_slide/demi-tulang-yang-kuat-dibutuhkan-asupan-kalsium-dan-vitamin-_140528073450-974.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service4.jpg);");
-            } else if(filterName == "paru"){
-                mainServiceTitle.innerHTML = "PARU PARU SEHAT";
+                msRight.setAttribute("style", "background-image: url(img/service/service4.jpg)");
+            } else if(filterName == "gunung"){
+                mainServiceTitle.innerHTML = "Butuh nanjak?";
                 mainServiceParagraph.innerHTML = "To TUUUU LAAAAANGGG ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis aperiam rem harum? Aspernatur molestias eos hic minus nostrum unde obcaecati, voluptatum neque placeat doloribus culpa officiis, quas repellat expedita. iwfnhamou,zpaurc n98y 98y98 yni7r 87n98 t98m";
-                mainServiceBtn.setAttribute("href", "https://asset.kompas.com/crops/m5nY5W5ron0RJkZTjekkZaA7ryM=/0x80:1000x747/750x500/data/photo/2018/03/02/1881076005.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service5.jpg);");
+                msRight.setAttribute("style", "background-image: url(img/service/service5.jpg)");
             } else{
-                mainServiceTitle.innerHTML = "DARAH KU MERAH BUKAN BIRU";
+                mainServiceTitle.innerHTML = "Dekat tebing seru nih";
                 mainServiceParagraph.innerHTML = "Darah Merah Putih ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis aperiam rem harum? Aspernatur molestias eos hic minus nostrum unde obcaecati, voluptatum neque placeat doloribus culpa officiis, quas repellat expedita. iwfnhamou,zpaurc n98y 98y98 yni7r 87n98 t98m";
-                mainServiceBtn.setAttribute("href", "https://asset.kompas.com/crops/w_aQbqXh7sOVXWKIQTcS3a_4e-o=/155x0:755x400/750x500/data/photo/2022/07/08/62c7e4e9ddaea.jpg");
-                msRight.setAttribute("style", "background-image: url(img/service6.jpg);");
+                msRight.setAttribute("style", "background-image: url(img/service/service6.jpg)");
             }
             
         }
